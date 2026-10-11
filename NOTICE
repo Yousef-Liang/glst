@@ -1,0 +1,13 @@
+GLST
+====
+
+This repository contains original GLST model code, copyright (c) 2026 Yousef Liang, Ryan Ardalan, Yarden Goraly, Chenhao Zhu, Lizzi (Yue) Yin, Jonas Frey, Claire Tomlin, Marco Pavone, and Shankar Sastry,
+and the following third-party component:
+
+glst/actor_critic.py
+    Derived from rsl_rl.
+    Copyright (c) 2021-2025, ETH Zurich and NVIDIA CORPORATION.
+    Licensed under the BSD-3-Clause License.
+    The original copyright header is preserved in that file.
+
+Both components are distributed under the BSD-3-Clause License in the LICENSE file.
