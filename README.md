@@ -43,12 +43,12 @@ out = model.forward_step(
 latent_global = out["latent_global"]  # (1, 9, 32, 32)
 ```
 
-`load_checkpoint(..., zero_missing=True)` matches the loader used when this map is frozen inside navigation training: tensors missing from the file are set to zero.
+The trained weights are in `checkpoints/latent_global_map.pt`. `load_checkpoint(..., zero_missing=True)` matches the loader used when this map is frozen inside navigation training: tensors missing from the file are set to zero.
 
 ```python
 from glst import load_checkpoint
 
-load_checkpoint(model, "latent_global_map.pt", map_location="cpu", zero_missing=True)
+load_checkpoint(model, "checkpoints/latent_global_map.pt", map_location="cpu", zero_missing=True)
 ```
 
 ## Navigation policy
