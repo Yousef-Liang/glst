@@ -85,6 +85,10 @@ BSD-3-Clause. See [LICENSE](LICENSE).
 
 `glst/actor_critic.py` is derived from [rsl_rl](https://github.com/leggedrobotics/rsl_rl), copyright ETH Zurich and NVIDIA CORPORATION, and keeps that copyright header. See [NOTICE](NOTICE).
 
+## Acknowledgements
+
+This research was supported in part by the Defense Advanced Research Projects Agency (DARPA) under Agreement No. HR00112490425. The views, opinions, and/or findings expressed are those of the author(s) and should not be interpreted as representing the official views or policies of the Defense Advanced Research Projects Agency (DARPA), or the U.S. Government.
+
 ## Citation
 
 ```bibtex
